@@ -2,5 +2,9 @@
   {
     "source": "NHS",
     "url": "https://www.nhs.uk/symptoms/"
+  },
+  {
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/"
   }
 ]
