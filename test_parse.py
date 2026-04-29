@@ -7,12 +7,12 @@ def main():
     html = fetch_html(url)
 
     if not html:
-        print("Fetch failed")
+        print("Fetch failed.")
         return
 
     result = parse_html(html, url)
 
-    print("\n=== TITLE ===")
+    print("=== TITLE ===")
     print(result["title"])
 
     print("\n=== TEXT SAMPLE ===")

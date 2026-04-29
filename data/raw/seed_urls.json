@@ -1,10 +1,26 @@
 [
   {
-    "source": "NHS",
+    "source": "healthdirect",
+    "url": "https://www.healthdirect.gov.au/health-topics/symptoms"
+  },
+  {
+    "source": "healthdirect",
+    "url": "https://www.healthdirect.gov.au/health-topics"
+  },
+  {
+    "source": "nhs",
     "url": "https://www.nhs.uk/symptoms/"
   },
   {
-    "source": "NHS",
+    "source": "nhs",
     "url": "https://www.nhs.uk/conditions/"
+  },
+  {
+    "source": "nhs",
+    "url": "https://www.nhs.uk/health-a-to-z/"
+  },
+  {
+    "source": "cdc",
+    "url": "https://www.cdc.gov/health-topics.html"
   }
 ]
