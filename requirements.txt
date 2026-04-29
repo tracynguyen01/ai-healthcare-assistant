@@ -6,3 +6,7 @@ numpy
 sentence-transformers
 groq
 python-dotenv
+torch
+torchvision
+tavily-python
+transformers
