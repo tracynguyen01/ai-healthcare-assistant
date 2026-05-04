@@ -260,6 +260,6 @@ This project is for educational purposes only and does not replace professional 
 
 ---
 ## 👩‍💻 Author
-Tracy Nguyen
+**Ngoc Bao Tran (Tracy) Nguyen**
 
 
