@@ -227,7 +227,13 @@ JSON parsing & validation
 ---
 
 ## 📊 Challenges & Solutions
-ChallengeSolutionLLM hallucinationIntegrated search tool (RAG-style)Unstructured outputsBuilt JSON extraction pipelineAPI reliabilityFallback parsing logicUX clarityStructured response format
+
+| Challenge              | Solution                                  |
+|-----------------------|-------------------------------------------|
+| LLM hallucination     | Integrated search tool (RAG-style)         |
+| Unstructured outputs  | Built JSON extraction pipeline            |
+| API reliability       | Fallback parsing logic                    |
+| UX clarity            | Structured response format                |
 
 ---
 ## 🔮 Future Improvements
