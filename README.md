@@ -187,22 +187,22 @@ Streamlit Chat UI
 git clone: https://github.com/tracynguyen01/ai-healthcare-assistant
 cd ai-healthcare-assistant
 ```
-3. Setup environment
+2. Setup environment
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
-5. Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-7. Add API keys
+4. Add API keys
 ```bash
 Create .env:
 GROQ_API_KEY=your_key
 TAVILY_API_KEY=your_key
 ```
-8. Run app
+5. Run app
 ```bash
 streamlit run app.py
 ```
@@ -239,19 +239,19 @@ JSON parsing & validation
 ## 🔮 Future Improvements
 
 
-Vector database (true RAG system)
+- Vector database (true RAG system)
 
 
-Medical knowledge base integration
+- Medical knowledge base integration
 
 
-User personalization
+- User personalization
 
 
-Multi-language support
+- Multi-language support
 
 
-Cloud scaling (AWS / GCP)
+- Cloud scaling (AWS / GCP)
 
 ---
 
