@@ -40,7 +40,17 @@ Reduced hallucination through controlled outputs
 ---
 
 ## 🧠 How it works
-User Question   ↓LLM (Groq / OpenAI)   ↓Tool Calling (Search API - Tavily)   ↓Structured Output (JSON Parsing)   ↓Streamlit Chat UI
+```bash
+User Question
+   ↓
+LLM (Groq / OpenAI)
+   ↓
+Tool Calling (Search API - Tavily)
+   ↓
+Structured Output (JSON Parsing)
+   ↓
+Streamlit Chat UI
+```
 
 💬 Example Capabilities
 
@@ -71,67 +81,89 @@ User Question   ↓LLM (Groq / OpenAI)   ↓Tool Calling (Search API - Tavily)  
 🔹 1. LLM Layer
 
 
-Handles reasoning and response generation
+- Handles reasoning and response generation
 
 
-Generates structured JSON output
+- Generates structured JSON output
 
 
 
 🔹 2. Tool Layer (Search API)
 
 
-Retrieves relevant medical information
+- Retrieves relevant medical information
 
 
-Reduces hallucination
+- Reduces hallucination
 
 
 
 🔹 3. Parsing Layer
-Custom-built pipeline:
+- Custom-built pipeline:
 
 
-Extracts JSON from raw LLM text
+- Extracts JSON from raw LLM text
 
 
-Handles malformed responses
+- Handles malformed responses
 
 
-Ensures consistent UI display
+- Ensures consistent UI display
 
 
 
 🔹 4. Frontend (Streamlit)
 
 
-Chat interface
+- Chat interface
 
 
-Real-time response rendering
+- Real-time response rendering
 
 
-Clean and minimal UX
+- Clean and minimal UX
 
 ---
 
 ## 🗂️ Project Structure
-📦 ai-healthcare-assistant├── app.py                # Main Streamlit app├── utils/│   ├── parser.py        # JSON extraction & safe parsing│   └── tools.py         # Search API integration├── .env                 # API keys (excluded from Git)├── requirements.txt├── assets/│   └── ui-preview.png└── README.md
-
+```bash
+📦 ai-healthcare-assistant
+├── app.py                # Main Streamlit app
+├── utils/
+│   ├── parser.py        # JSON extraction & safe parsing
+│   └── tools.py         # Search API integration
+├── .env                 # API keys (excluded from Git)
+├── requirements.txt
+├── assets/
+│   └── ui-preview.png
+└── README.md
+```
 ---
 ## 🚀 Run Locally
 1. Clone repo
+```bash
 git clone: https://github.com/tracynguyen01/ai-healthcare-assistant
-2. Setup environment
-python -m venv venvsource venv/bin/activate
-3. Install dependencies
+cd ai-healthcare-assistant
+```
+3. Setup environment
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+5. Install dependencies
+```bash
 pip install -r requirements.txt
-4. Add API keys
+```
+7. Add API keys
+```bash
 Create .env:
-GROQ_API_KEY=your_keyTAVILY_API_KEY=your_key
-5. Run app
+GROQ_API_KEY=your_key
+TAVILY_API_KEY=your_key
+```
+8. Run app
+```bash
 streamlit run app.py
-
+```
 ---
 ## 🛠️ Tech Stack
 
