@@ -1,6 +1,9 @@
 # 🏥 AI Healthcare Assistant Chatbot
+---
 
-## 🌐 Live Application: https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/
+## 🌐 Live Application: 
+
+👉https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/
 
 ---
 
