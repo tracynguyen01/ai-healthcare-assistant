@@ -220,15 +220,11 @@ streamlit run app.py
 
 <p align="left">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="25"/> Python  
-
-<img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width="25"/> Streamlit  
-
-<img src="https://img.shields.io/badge/LLM-Groq%20%2F%20OpenAI-blue?style=flat-square" />  
-
-<img src="https://img.shields.io/badge/Search-Tavily-orange?style=flat-square" />  
-
-<img src="https://img.shields.io/badge/JSON-Parsing%20%26%20Validation-green?style=flat-square" />  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="25"/> Python 
+- <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width="25"/> Streamlit 
+- 🤖 LLM APIs (Groq / OpenAI)  
+- 🔎 Tavily Search API  
+- 🧩 JSON Parsing & Validation 
 
 </p>
 
