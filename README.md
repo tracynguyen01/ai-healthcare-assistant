@@ -5,6 +5,15 @@
 
 👉 https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/
 
+## Dashboard
+<details>
+  <summary>Click to expand</summary>
+  <br/>
+  <p align="center">
+    <img src="assert/ai_healthcare_assistant.png" width="900"/>
+  </p>
+</details>
+
 ---
 
 ## 📌 Overview
