@@ -78,7 +78,7 @@ Streamlit Chat UI
 ---
 
 ## 🏗️ System Design
-🔹 1. LLM Layer
+🔹 **1. LLM Layer**
 
 
 - Handles reasoning and response generation
@@ -88,7 +88,7 @@ Streamlit Chat UI
 
 
 
-🔹 2. Tool Layer (Search API)
+🔹 **2. Tool Layer (Search API)**
 
 
 - Retrieves relevant medical information
@@ -98,7 +98,7 @@ Streamlit Chat UI
 
 
 
-🔹 3. Parsing Layer
+🔹 **3. Parsing Layer**
 - Custom-built pipeline:
 
 
@@ -112,7 +112,7 @@ Streamlit Chat UI
 
 
 
-🔹 4. Frontend (Streamlit)
+🔹 **4. Frontend (Streamlit)**
 
 
 - Chat interface
