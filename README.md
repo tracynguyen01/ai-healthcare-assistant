@@ -128,15 +128,57 @@ Streamlit Chat UI
 ## 🗂️ Project Structure
 ```bash
 📦 ai-healthcare-assistant
-├── app.py                # Main Streamlit app
-├── utils/
-│   ├── parser.py        # JSON extraction & safe parsing
-│   └── tools.py         # Search API integration
-├── .env                 # API keys (excluded from Git)
+├── app.py                      # Streamlit chatbot entry point
 ├── requirements.txt
-├── assets/
-│   └── ui-preview.png
-└── README.md
+├── project_scope.md            # Project description & scope
+├── README.md
+├── LICENSE
+├── .gitignore
+
+├── data/
+│   ├── raw/
+│   │   └── seed_urls.json      # Initial URLs for crawling
+│   ├── processed/
+│   │   └── documents.json      # Cleaned & structured documents
+│   └── vectorstore/
+│       ├── index.faiss         # FAISS vector index
+│       └── metadata.json       # Document metadata
+
+├── src/
+│   ├── crawler/                # Data collection pipeline
+│   │   ├── crawl.py
+│   │   ├── fetch.py
+│   │   ├── parse.py
+│   │   ├── save.py
+│   │   ├── filters.py
+│   │   ├── domain_rules.py
+│   │   ├── ingest_medlineplus.py
+│   │   └── merge_documents.py
+│
+│   └── utils/                  # Core RAG + LLM pipeline
+│       ├── agentic_rag.py
+│       ├── rag.py
+│       ├── retrieve.py
+│       ├── internal_retrieve.py
+│       ├── external_retrieve.py
+│       ├── hybrid_retrieve.py
+│       ├── fallback_search.py
+│       ├── embed.py
+│       ├── chunking.py
+│       ├── preprocess.py
+│       ├── query_planner.py
+│       ├── generate.py
+│       ├── answer_critic.py
+│       ├── safety.py
+│       ├── prompts.py
+│       ├── llm_parse.py
+│       └── logger.py
+
+├── tests/
+│   ├── test_chunk.py
+│   ├── test_fetch.py
+│   ├── test_groq.py
+│   └── test_parse.py
 ```
 ---
 ## 🚀 Run Locally
