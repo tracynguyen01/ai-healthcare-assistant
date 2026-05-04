@@ -65,7 +65,7 @@ User Question   ↓LLM (Groq / OpenAI)   ↓Tool Calling (Search API - Tavily)  
 
 📌 Suggested next actions
 
-
+---
 
 ## 🏗️ System Design
 🔹 1. LLM Layer
@@ -113,14 +113,15 @@ Real-time response rendering
 
 Clean and minimal UX
 
-
+---
 
 ## 🗂️ Project Structure
 📦 ai-healthcare-assistant├── app.py                # Main Streamlit app├── utils/│   ├── parser.py        # JSON extraction & safe parsing│   └── tools.py         # Search API integration├── .env                 # API keys (excluded from Git)├── requirements.txt├── assets/│   └── ui-preview.png└── README.md
 
+---
 ## 🚀 Run Locally
 1. Clone repo
-git clone https://github.com/your-username/ai-healthcare-assistant.gitcd ai-healthcare-assistant
+git clone
 2. Setup environment
 python -m venv venvsource venv/bin/activate
 3. Install dependencies
@@ -131,6 +132,7 @@ GROQ_API_KEY=your_keyTAVILY_API_KEY=your_key
 5. Run app
 streamlit run app.py
 
+---
 ## 🛠️ Tech Stack
 
 
@@ -148,11 +150,12 @@ Tavily Search API
 
 JSON parsing & validation
 
-
+---
 
 ## 📊 Challenges & Solutions
 ChallengeSolutionLLM hallucinationIntegrated search tool (RAG-style)Unstructured outputsBuilt JSON extraction pipelineAPI reliabilityFallback parsing logicUX clarityStructured response format
 
+---
 ## 🔮 Future Improvements
 
 
@@ -170,11 +173,12 @@ Multi-language support
 
 Cloud scaling (AWS / GCP)
 
-
+---
 
 ## ⚠️ Disclaimer
 This project is for educational purposes only and does not replace professional medical advice.
 
+---
 ## 👩‍💻 Author
 Tracy Nguyen
 
