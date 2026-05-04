@@ -3,7 +3,7 @@
 
 ## 🌐 Live Application: 
 
-👉https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/
+👉 https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/
 
 ---
 
