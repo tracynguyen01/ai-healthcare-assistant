@@ -121,7 +121,7 @@ Clean and minimal UX
 ---
 ## 🚀 Run Locally
 1. Clone repo
-git clone
+git clone: https://github.com/tracynguyen01/ai-healthcare-assistant
 2. Setup environment
 python -m venv venvsource venv/bin/activate
 3. Install dependencies
