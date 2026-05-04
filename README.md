@@ -218,20 +218,11 @@ streamlit run app.py
 ---
 ## 🛠️ Tech Stack
 
-
-Python
-
-
-Streamlit
-
-
-LLM APIs (Groq / OpenAI)
-
-
-Tavily Search API
-
-
-JSON parsing & validation
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-Groq%20%7C%20OpenAI-000000?style=for-the-badge)
+![Tavily](https://img.shields.io/badge/Search-Tavily-orange?style=for-the-badge)
+![JSON](https://img.shields.io/badge/JSON-Parsing%20%26%20Validation-green?style=for-the-badge)
 
 ---
 
