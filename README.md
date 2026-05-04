@@ -1,1 +1,1 @@
-# ai-healthcare-assistant
+# AI Healthcare Assistant
