@@ -291,7 +291,7 @@ Unlike typical chatbots, this system:
 - 🔎 **Real-time search integration** (Tavily)
 - 🧩 **Robust JSON parsing & validation**
 - 🛡️ **Safety + answer critic layer**
-- 🌐 **Fully deployed app (Streamlit)**
+- 🌐 **Fully deployed app** (Streamlit)
 
 ---
 
@@ -314,4 +314,16 @@ Safety Check + Answer Critic
    ↓
 Structured Response (JSON → UI)
 ```
+---
 
+## 🏗️ System Highlights
+
+This project simulates a real-world AI system pipeline:
+
+* Data crawling from medical sources
+* Text preprocessing + chunking
+* Embedding + FAISS vector storage
+* Hybrid retrieval (internal + external)
+* Query planning & fallback search
+* LLM generation with structured outputs
+* Safety filtering & hallucination mitigation
