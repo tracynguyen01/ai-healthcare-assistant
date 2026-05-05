@@ -106,12 +106,12 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 ```
-Create .env:
+**Create .env:**
 ```bash
 GROQ_API_KEY=your_key
 TAVILY_API_KEY=your_key
 ```
-Run:
+**Run:**
 ```bash
 streamlit run app.py
 ```
@@ -122,7 +122,7 @@ streamlit run app.py
 * User personalization
 * Multi-language support
 * Cloud deployment (AWS/GCP)
-* 
+  
 ---
 ## ⚠️ Disclaimer
 This project is for educational purposes only and does not replace professional medical advice.
