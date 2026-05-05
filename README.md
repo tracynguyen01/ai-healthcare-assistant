@@ -18,16 +18,15 @@
 
 ## 📌 Overview
 
-AI Healthcare Assistant is an intelligent chatbot designed to provide quick, reliable, and structured health-related information using Large Language Models (LLMs).
+An AI-powered healthcare chatbot that uses Retrieval-Augmented Generation (RAG) to provide grounded, structured, and safer health advice.
 
-The system combines LLM reasoning + external knowledge tools to deliver:
+Unlike normal chatbots, this system:
 
-Instant answers for common health questions
-Safer, structured responses
-Reduced hallucination through controlled outputs
+retrieves real medical context
+validates responses
+outputs structured reasoning
 
-👉 Built as a practical healthcare AI assistant prototype, focusing on usability and real-world deployment.
-
+👉 Built as a production-style AI system, not just a demo model.
 ---
 ## ⚡ Key Highlights (Why this project stands out)
 
@@ -266,4 +265,53 @@ This project is for educational purposes only and does not replace professional 
 ## 👩‍💻 Author
 **Ngoc Bao Tran (Tracy) Nguyen**
 
+# 🏥 AI Healthcare Assistant Chatbot
+
+🚀 **Live Demo:** https://tracynguyen01-ai-healthcare-assistant-app-qi6ci3.streamlit.app/  
+👉 Try: *"How to reduce fever at home?"*
+
+---
+
+## 💡 What is this?
+
+An **AI-powered healthcare chatbot** that uses **RAG (Retrieval-Augmented Generation)** to deliver **more reliable, structured, and safer health information**.
+
+Unlike typical chatbots, this system:
+- Retrieves real medical context  
+- Validates generated answers  
+- Outputs structured responses  
+
+👉 Built as a **production-style AI system**, not just a demo.
+
+---
+
+## ⚡ Why this project stands out
+
+- 🧠 **Hybrid RAG Pipeline** (internal + external retrieval)
+- 🔎 **Real-time search integration** (Tavily)
+- 🧩 **Robust JSON parsing & validation**
+- 🛡️ **Safety + answer critic layer**
+- 🌐 **Fully deployed app (Streamlit)**
+
+---
+
+## 🧠 How it works (simplified)
+
+```text
+User Query
+   ↓
+Query Planning (intent + expansion)
+   ↓
+Hybrid Retrieval
+   ├─ Internal (FAISS vector DB)
+   └─ External (Web search)
+   ↓
+Context Filtering & Ranking
+   ↓
+LLM Generation (Groq)
+   ↓
+Safety Check + Answer Critic
+   ↓
+Structured Response (JSON → UI)
+```
 
