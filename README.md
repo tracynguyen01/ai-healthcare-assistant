@@ -60,7 +60,7 @@ This project simulates a real-world AI system pipeline:
 * Query planning & fallback search
 * LLM generation with structured outputs
 * Safety filtering & hallucination mitigation
-* 
+
 ---
 ## 📊 Dashboard Preview
 <details>
